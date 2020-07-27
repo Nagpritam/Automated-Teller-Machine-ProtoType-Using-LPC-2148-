@@ -1,0 +1,39 @@
+Dependencies for Project 'day5', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\project.c)(0x578766C0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\project.o --omf_browse .\project.crf --depend .\project.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)
+F (.\lcddata.c)(0x57872FD8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcddata.o --omf_browse .\lcddata.crf --depend .\lcddata.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)
+F (.\delay.c)(0x5784819C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)
+F (.\serialenterr.c)(0x5787664D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\serialenterr.o --omf_browse .\serialenterr.crf --depend .\serialenterr.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (dec.h)(0x57875557)
+F (.\uart_init.c)(0x57873FD1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart_init.o --omf_browse .\uart_init.crf --depend .\uart_init.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\extint.c)(0x57874EA7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\extint.o --omf_browse .\extint.crf --depend .\extint.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)
+F (.\stringcheck.c)(0x57876624)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stringcheck.o --omf_browse .\stringcheck.crf --depend .\stringcheck.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (dec.h)(0x57875557)
+F (.\passrec.c)(0x57875D27)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\passrec.o --omf_browse .\passrec.crf --depend .\passrec.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)
+F (.\passcheck.c)(0x57875D0E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\passcheck.o --omf_browse .\passcheck.crf --depend .\passcheck.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (dec.h)(0x57875557)
+F (.\amountcheck.c)(0x57875D05)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\amountcheck.o --omf_browse .\amountcheck.crf --depend .\amountcheck.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (dec.h)(0x57875557)
+F (.\amountrec.c)(0x57876615)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\amountrec.o --omf_browse .\amountrec.crf --depend .\amountrec.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (dec.h)(0x57875557)

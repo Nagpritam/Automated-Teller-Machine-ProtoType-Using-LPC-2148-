@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\timer.o"
+".\chaser.o"
+--strict --scatter ".\timerchaser.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\timerchaser.map" -o .\timerchaser.axf

@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\timerinterrupt.o"
+".\timerinterruotinit.o"
+".\timer.o"
+".\extint.o"
+".\delay.o"
+--strict --scatter ".\timerinterrupt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\timerinterrupt.map" -o .\timerinterrupt.axf

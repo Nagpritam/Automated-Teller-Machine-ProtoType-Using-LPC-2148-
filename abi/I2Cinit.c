@@ -1,0 +1,38 @@
+#include<lpc214x.h>
+void i2c_init(char c)
+{
+PINSEL0=(PINSEL0 & ~(3<<4))|(1<<4);
+PINSEL0=(PINSEL0 & ~(3<<6))|(1<<6);
+I2C0CONSET=(1<<6);
+I2C0SCLH=75;
+I2C0SCLL=75;
+I2C0CONSET=(1<<5);
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<5);
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x70;
+
+	
+	while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x00;
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x27;
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x3F;
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x3F;
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONCLR=(1<<3);
+I2C0DAT=0x3F;
+while(!(I2C0CONSET & (1<<3)));
+
+I2C0CONCLR=(1<<3);
+I2C0DAT=c;
+while(!(I2C0CONSET & (1<<3)));
+I2C0CONSET=(1<<4);
+
+}

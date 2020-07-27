@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\abi\day5.uvproj
+Project File Date:  07/13/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling project.c...
+project.c(46): warning:  #111-D: statement is unreachable
+        WDTC=0x0D693A40;
+project.c: 1 warning, 0 errors
+compiling lcddata.c...
+compiling delay.c...
+compiling serialenterr.c...
+serialenterr.c(7): warning:  #177-D: variable "id" was declared but never referenced
+                char id[4][6]={"123456","141386","145053","140760"};
+serialenterr.c(9): warning:  #177-D: variable "user1" was declared but never referenced
+                char user1[]={"ENTER YOUR ID"};
+serialenterr.c(11): warning:  #177-D: variable "count" was declared but never referenced
+          int i=0,count=0;
+serialenterr.c: 3 warnings, 0 errors
+compiling uart_init.c...
+compiling extint.c...
+extint.c(50): warning:  #177-D: variable "wrongp" was declared but never referenced
+        char wrongp[]={"WRONG PASSWORD"};
+extint.c(51): warning:  #177-D: variable "wrongi" was declared but never referenced
+        char wrongi[]={"WRONG ID"};
+extint.c(52): warning:  #177-D: variable "temp" was declared but never referenced
+        char temp[6];
+extint.c: 3 warnings, 0 errors
+compiling stringcheck.c...
+compiling passrec.c...
+compiling passcheck.c...
+compiling amountcheck.c...
+compiling amountrec.c...
+linking...
+Program Size: Code=4972 RO-data=40 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\project.axf" - 0 Error(s), 7 Warning(s).
+am Size: Code=5000 RO-data=56 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\project.axf" - 0 Error(s), 8 Warning(s).
+g, 0 errors
+linking...
+Program Size: Code=4940 RO-data=56 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\project.axf" - 0 Error(s), 9 Warning(s).
+Error(s), 9 Warning(s).
+Target not created
+, 10 Warning(s).
+748 RO-data=56 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\project.axf" - 0 Error(s), 11 Warning(s).
+RO-data=56 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\project.axf" - 0 Error(s), 12 Warning(s).
+ile...
+".\project.axf" - 0 Error(s), 12 Warning(s).
+created
+ot created
+).
+Target not created
+ 3 warnings, 1 error
+".\project.axf" - 2 Error(s), 13 Warning(s).
+Target not created
+ #177-D: variable "temp" was declared but never referenced
+        char temp[6];
+extint.c: 6 warnings, 0 errors
+"extint.c" - 0 Error(s), 6 Warning(s).

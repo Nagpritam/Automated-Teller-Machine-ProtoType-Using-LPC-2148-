@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\abi\day2.uvproj
+Project File Date:  07/11/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling uart_init.c...
+compiling serial.c...
+linking...
+Program Size: Code=792 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\serail.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+:  #169: expected a declaration
+  while(1)
+serial.c(14): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+serial.c: 1 warning, 3 errors
+".\serail.axf" - 3 Error(s), 1 Warning(s).
+Target not created
+l.c(14): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+serial.c: 2 warnings, 3 errors
+".\serail.axf" - 3 Error(s), 3 Warning(s).
+Target not created
+
+W-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\timerinterrupt.axf" - 0 Error(s), 4 Warning(s).
+#40: expected an identifier
+        T0IR=(1<<0);
+timer.c(28): error:  #18: expected a ")"
+        T0IR=(1<<0);
+timer.c(28): error:  #144: a value of type "int" cannot be used to initialize an entity of type "int *"
+        T0IR=(1<<0);
+timer.c(29): error:  #169: expected a declaration
+        }
+timer.c(41): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+timer.c: 1 warning, 9 errors
+".\timerbuzzer.axf" - 9 Error(s), 3 Warning(s).
+Target not created

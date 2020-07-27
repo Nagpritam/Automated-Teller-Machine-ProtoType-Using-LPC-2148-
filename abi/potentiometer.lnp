@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\timerinterrupt.o"
+".\extint.o"
+".\delay.o"
+".\timer.o"
+".\timerinterruotinit.o"
+--strict --scatter ".\potentiometer.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\potentiometer.map" -o .\potentiometer.axf
