@@ -1,5 +1,4 @@
-# ATM
-code files of the project on ATM prototype
+# Automated Teller Machine(ATM) prototype using LPC-2148 Development Kit
 
 Project Overview:
 
